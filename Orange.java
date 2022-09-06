@@ -66,5 +66,7 @@ public class Orange {
     public static void main (String[] args){
         //Ecrire ici vos tests
 	System.out.println("premier test Orange");
+    System.out.println("test effectué");; 
    }
 }
+
