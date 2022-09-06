@@ -68,8 +68,6 @@ public class Orange {
 	System.out.println("premier test Orange");
     System.out.println("test effectué");; 
     System.out.println("je sais j'ai commit maintenant");; 
-
-    System.out.println(x);
    }
 }
 
