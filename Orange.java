@@ -2,6 +2,7 @@
  *
  * @author roudet
  */
+ 
 public class Orange {
     private double prix;
     private String origine;
