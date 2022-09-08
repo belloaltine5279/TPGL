@@ -2,11 +2,7 @@
  *
  * @author roudet
  */
- 
-
-
-
-public class Orange {
+public class Orange implements Fruit{
     private double prix;
     private String origine;
 	
@@ -69,4 +65,3 @@ public class Orange {
 	System.out.println("premier test Orange");
    }
 }
-
