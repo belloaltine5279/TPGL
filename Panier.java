@@ -2,7 +2,8 @@ import java.util.*;
 /**
  *
  * @author roudet
- */
+ */ 
+
 public class Panier {
     private ArrayList<Fruit> fruits;  //attribut pour stocker les fruits
     private int contenanceMax;        //nb maximum d'oranges que peut contenir le panier
@@ -77,9 +78,8 @@ public class Panier {
         for(int i = 0 ; i < this.fruits.size(); ++i){
             sum += this.fruits.get(i).getPrix() ; 
         }
-	return 0;
+	      return 0;
     }
-    
     //groupe 7
     public void boycotteOrigine(String origine){  //supprime du panier tous les fruits provenant du pays origine
         for(int i = 0 ; i < this.fruits.size() ; ++i){

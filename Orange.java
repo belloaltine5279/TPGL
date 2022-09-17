@@ -5,7 +5,7 @@
 public class Orange implements Fruit{
     private double prix;
     private String origine;
-	
+
     public Orange() 
     {
         this.prix = 0.5;  //prix en euros
@@ -59,9 +59,11 @@ public class Orange implements Fruit{
         return false;
     }
 
-
     public static void main (String[] args){
         //Ecrire ici vos tests
-	System.out.println("premier test Orange");
+        Orange or = new Orange(43 , "Espagne");
+        //System.out.println("premier test Orange");
+
+        System.out.println("Prix : " + or.getPrix() + "\nOrigine : " + or.getOrigine() + "\n");
    }
 }
